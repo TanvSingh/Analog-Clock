@@ -1,0 +1,41 @@
+#clockContainer{
+    margin: auto;
+    background-color: red;
+    height: 60vw;
+    width: 60vw;
+    background: url(58843635-classic-green-clock-without-hands-on-a-white-background.jpg) no-repeat;
+    background-size: 100%;
+    position: relative;
+
+
+}
+
+#hour, #minute, #second{
+    position:absolute;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+#hour{
+    width: 1%;
+    height: 10%;
+    top: 35%;
+    left: 39.4%;
+   background-color:black;
+}
+    
+    
+#minute{
+    width: 1%;
+    height: 16%;
+    top: 29%;
+    left: 39.3%;
+   background-color: black;
+
+}
+#second{
+    width: 1%;
+    height: 19%;
+    top: 26%;
+    left: 39%;
+    background-color: yellow;
+}
